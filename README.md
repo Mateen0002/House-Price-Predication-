@@ -4,14 +4,14 @@ The methodology includes exploratory data analysis, data visualization, preproce
 and the construction of an end-to-end machine learning pipeline using the scikit-learn library.
 
 # Table of Contents
-1 Project Overview.
-2 Dataset Information.
-3 Technologies Used.
-4 Key Steps Implemented.
-5 Project Workflow.
-6 Model Training & Evaluation.
-7 How to Run the Project.
-8 Conclusion.
+1.  Project Overview.
+2.  Dataset Information.
+3.  Technologies Used.
+4.  Key Steps Implemented.
+5.  Project Workflow.
+6.  Model Training & Evaluation.
+7.  How to Run the Project.
+8.  Conclusion.
 
 # Project Overview
 
@@ -20,12 +20,12 @@ The dataset is thoroughly examined to understand its structure, identify pattern
 The insights derived from this analysis guide the subsequent preprocessing and model development steps.
 
 # Technologies Used
-1 Python.
-2 Pandas, NumPy.
-3 Matplotlib, Seaborn.
-4 Scikit-Learn.
-5 Jupyter Notebook.
-6 vs code.
+- Python.
+- Pandas, NumPy.
+- Matplotlib, Seaborn.
+- Scikit-Learn.
+- Jupyter Notebook.
+- vs code.
 
 # Exploratory Data Analysis and Visualization
 
@@ -35,7 +35,7 @@ Visual tools such as histograms, correlation heatmaps, and scatter plots are uti
 To ensure that the training and testing datasets maintain proportional representation of key features,
 the StratifiedShuffleSplit technique is applied based on income categories:
 
-
+## code ##
 from sklearn.model_selection import StratifiedShuffleSplit
 split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
 for train_index, test_index in split.split(df, df['income_cat']):
