@@ -4,14 +4,14 @@ The methodology includes exploratory data analysis, data visualization, preproce
 and the construction of an end-to-end machine learning pipeline using the scikit-learn library.
 
 # Table of Contents
-1 Project Overview
-2 Dataset Information
-3 Technologies Used
-4 Key Steps Implemented
-5 Project Workflow
-6 Model Training & Evaluation
-7 How to Run the Project
-8 Conclusion
+1 Project Overview.
+2 Dataset Information.
+3 Technologies Used.
+4 Key Steps Implemented.
+5 Project Workflow.
+6 Model Training & Evaluation.
+7 How to Run the Project.
+8 Conclusion.
 
 # Project Overview
 
@@ -20,12 +20,12 @@ The dataset is thoroughly examined to understand its structure, identify pattern
 The insights derived from this analysis guide the subsequent preprocessing and model development steps.
 
 # Technologies Used
-1 Python
-2 Pandas, NumPy
-3 Matplotlib, Seaborn
-4 Scikit-Learn
-5 Jupyter Notebook
-6 vs code
+1 Python.
+2 Pandas, NumPy.
+3 Matplotlib, Seaborn.
+4 Scikit-Learn.
+5 Jupyter Notebook.
+6 vs code.
 
 # Exploratory Data Analysis and Visualization
 
